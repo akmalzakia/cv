@@ -1,0 +1,64 @@
+.parallax {
+  position: relative;
+  min-height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profpic{
+  background-image: url("me.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+}
+.img1{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img1.jpg");
+  min-height: 850px;
+}
+.img2{
+	background-image: url("img2.jpg");
+  min-height: 510px;
+}
+.img3{
+  background-image: url(img3.jpg);
+  min-height: 580px;
+}
+.img4{
+  background-image: url(img4.jpg);
+  min-height: 580px;
+}
+.endparallax{
+  min-height: 50px;
+}
+
+#introlink{
+  background-color: transparent;
+  width: 100%;
+  position: absolute;
+  top:37%;
+}
+#skilllink{
+  background-color: transparent;
+  width: 100%;
+  position: absolute;
+  top: 13%;
+}
+#edulink{
+  background-color: transparent;
+  width: 100%;
+  position: absolute;
+  top: 13%;
+}
+#explink{
+  background-color: transparent;
+  width: 100%;
+  position: absolute;
+  top: 13%;
+}
